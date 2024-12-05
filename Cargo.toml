@@ -6,4 +6,6 @@ edition = "2021"
 [dependencies]
 
 [lib]
+name = "sum_lib"
 path = "src/lib.rs"
+crate-type = ["cdylib"]
